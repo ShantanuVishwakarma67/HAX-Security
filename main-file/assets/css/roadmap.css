@@ -1,0 +1,445 @@
+.logo-img {
+	max-width: 150px;
+	height: auto;
+}
+.text {
+	flex: 1;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+
+.text h1 {
+	font-size: 3rem !important;
+	color: #f0f2f5;
+}
+
+.text p {
+	font-size: 1.5rem !important;
+	margin-left: -1.5%;
+}
+
+
+.main-title {
+	margin-left: -44%;
+
+}
+
+.image {
+	width: 350px;
+	height: 350px;
+	overflow: visible;
+	position: relative;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	position: absolute;
+	z-index: 10;
+	left: -15%;
+	margin-top: 2%;
+}
+
+
+
+.card-body {
+	/* Ensures the container takes up full width and handles padding/margin */
+	width: 100%;
+	padding: 20px;
+}
+
+.content-container {
+	display: flex;
+	align-items: flex-start;
+	/* Aligns items at the start of the container */
+	gap: 20px;
+	/* Adds space between text and image */
+}
+
+
+.drop-text {
+	margin-left: -64%;
+}
+.text-1 p {
+	font-size: 1.5rem !important;
+	margin-left: -1.5%;
+}
+
+
+
+
+
+.image-1 {
+	width: 350px;
+	/* Increase width to ensure enough space for the image */
+	height: 350px;
+	/* Increase height to match the width */
+	overflow: visible;
+	/* Allow overflow so the image does not get clipped */
+	position: relative;
+	/* Allows for precise positioning of the image */
+
+}
+
+.image-1 img {
+	width: 100%;
+	/* Ensures the image covers the container */
+	height: 100%;
+	/* Ensures the image covers the container */
+	border-radius: 8px;
+	/* Optional: rounds the corners of the image */
+	position: absolute;
+	z-index: 10;
+	/* Positions the image relative to the .image container */
+	left: -15%;
+	/* Moves the image 15% of its width to the left */
+	margin-top: 2%;
+}
+
+
+
+
+
+/* Drop down */
+
+.dropdown-container {
+	width: 100%;
+}
+
+.text {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.dropbtn {
+	background-color: blue;
+	color: white;
+	padding: 8px 16px;
+	/* Slightly smaller padding */
+	font-size: 14px;
+	/* Slightly smaller font size */
+	border: none;
+	cursor: pointer;
+	width: auto;
+	/* Auto width to fit content */
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+	/* Ensures block-level layout for centering */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dropbtn:hover {
+	background-color: darkblue;
+}
+
+.dropbtn:focus {
+	outline: none;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	text-align: left;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdowns {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	width: 70%;
+	margin-left: 3%;
+}
+
+.dropdown {
+	position: relative;
+	height: 100% !important;
+	width: 40%;
+	background-color: grey;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* Center content horizontally */
+	padding: 20px;
+	text-align: center;
+	/* Center text inside dropdown */
+}
+
+h1 {
+	margin: 0;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	/* Center text horizontally */
+}
+
+.button-container {
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.round-button {
+	background-color: blue;
+	/* Button color */
+	color: white;
+	border: none;
+	border-radius: 50%;
+	/* Makes the button round */
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 18px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.round-button:hover {
+	background-color: darkblue;
+	/* Slightly darker on hover */
+}
+
+.round-button:focus {
+	outline: none;
+}
+
+.search-text {
+	margin-top: 10px;
+	font-size: 14px;
+	color: white;
+}
+
+
+.card {
+	margin-bottom: 20px;
+}
+
+.content-box-card {
+	padding: 20px;
+
+}
+
+.search-results {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 8px;
+}
+
+
+.search-results-container {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: black;
+	border-radius: 8px;
+	color: white;
+}
+
+.main-title1-1 {
+	margin-left: -88%;
+
+}
+
+.main-title1-2{
+	margin-left: -18px;
+	color: #f0f2f5;
+}
+.main-title1-3{
+	margin-left: -68%;
+}
+.main-title1-4{
+	margin-left: -72%;
+}
+
+.image-1{
+	position: absolute;
+    margin-left: 65%;
+    margin-top: -23%;
+}
+
+.image-2{
+	position: absolute;
+    margin-left: 60%;
+    margin-top: -28%;
+}
+
+.image-1 img {
+	width: 354px;
+    border-radius: 8px;
+    margin-top: 19%;
+    height: 236px;
+}
+
+.image-2 img {
+	width: 80%;
+    border-radius: 8px;
+    
+    margin-top: 83%;
+}
+
+
+
+
+
+@media (max-width:1200px) {
+	.top-info {
+		display: flex;
+		flex-direction: column; 
+		margin: 3% 3% 3% 3%; 
+	  }
+	  
+	  .text {
+		margin-bottom: 20px; 
+	  }
+	  
+	  .text h1 {
+		font-size: 3rem !important;
+		color: #f0f2f5;
+	  }*/
+
+
+	  
+	   .text p {
+		font-size: 1.5rem !important;
+		margin-left: 0; 
+		margin-bottom: 10%;
+	  }  
+	  
+body{
+	position: relative;
+
+}
+
+
+	  .image {
+		width: 350px; /* Adjust width if needed */
+		height: 350px; /* Adjust height if needed */
+		margin-top: 25%; /* Space between text and image */
+		overflow: visible;
+		position: absolute; /* Allows for precise positioning of the image */
+		margin-left: 8%;
+
+	  }
+	  
+	  .image img {
+		width: 100%; /* Ensures the image covers the container */
+		height: 100%; /* Ensures the image covers the container */
+		object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the square */
+		border-radius: 8px; /* Optional: rounds the corners of the image */
+	  }
+	  
+
+	  .dropdown-container {
+		margin-top: 50% !important;
+		
+
+	}
+	
+	
+}
+
+@media (max-width:850px) {
+
+	.dropdown-container {
+		margin-top: 65% !important;
+		
+		
+	}
+
+	.image {
+		
+		margin-top: 38%; /* Space between text and image */
+		
+
+	  }
+	  .main-title{
+		margin-left: -23.5% ;
+	  }
+	  .drop-text{
+		margin-left: 	-35%;
+	  }
+	
+}
+
+@media (max-width:600px) {
+	.text h1{
+		font-size:2rem !important;
+		margin-left: -22%;
+	}
+	
+	.dropdown-container {
+		margin-top: 117% !important;
+		
+
+	}
+
+	.image {
+		
+		margin-top: 70%; /* Space between text and image */
+		height: 34%;
+		width: 78%;
+		margin-left: 12%;
+
+	  }
+
+	  .dropdowns {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		width: 96%;
+		margin-left: 3%;
+	}
+
+	.main-title1-1{
+		margin-top: 10%;
+	}
+
+	
+	
+}
+
+@media (max-width:400px) {
+	.text h1{
+		font-size:1.5rem !important;
+		margin-left: -15%;
+	}
+	
+	.dropdown-container {
+		margin-top: 140% !important;
+		
+
+	}
+
+	.image {
+		
+		margin-top: 98%; /* Space between text and image */
+		height: 34%;
+		width: 78%;
+		margin-left: 12%;
+
+	  }
+	
+}

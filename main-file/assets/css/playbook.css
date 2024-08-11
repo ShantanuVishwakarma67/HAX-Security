@@ -1,0 +1,141 @@
+.logo-img {
+	max-width: 150px;
+	/* Adjust the size as needed */
+	height: auto;
+	/* Maintain aspect ratio */
+}
+
+body {
+    position: relative;
+
+  }
+  .pos-card{
+    position: absolute;
+    margin-bottom: 100%;
+    height: 13%;
+    width: 75%;
+    z-index: 10;
+    top: 1%;
+    margin-left: 51%;
+    
+  }
+
+  .text{
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+  }
+  
+
+  .services-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+  }
+
+  .services-item .image img {
+    width: 80px; /* Increase the width of the image */
+    height: 80px; /* Maintain aspect ratio by setting height */
+  }
+  
+
+ .frequently-asked-questions {
+    margin-top: 89px !important;
+
+  }
+
+
+
+  /* <!-- last section of tittl 2 --> */
+
+  .text-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 74px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+  }
+  .card-title{
+    font-size: 2rem;
+  }
+  .submit-image{
+    margin-right: 10%;
+  }
+
+  .content p{
+    font-size: 1.2rem;
+  }
+  .submit-image img {
+    width: 100%; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer; /* If you want it to act like a button */
+  }
+  
+
+
+  
+
+  @media (max-width:1200px) {
+    body{
+      background-color: red;
+    }
+  
+    .frequently-asked-questions {
+      margin-top: 45% !important;
+  
+    }
+
+    .pos-card{
+     
+      top: 10%;
+      margin-left: 4%;
+      
+    }
+
+    .text-1 {
+      display: flex;
+      flex-direction: column; /* Stack content vertically */
+      align-items: flex-start; /* Align items to the start of the container (left side) */
+      margin: 75px 0 25px; /* Adjusted margins */
+    }
+    
+    .card-title {
+      font-size: 2rem; /* Title font size */
+      margin-bottom: 10px; /* Space below the title */
+      text-align: left; /* Align title text to the left */
+    }
+    
+    .content {
+      text-align: left; /* Align paragraphs to the left */
+    }
+    
+    .content p {
+      font-size: 1.2rem; /* Paragraph font size */
+      margin-bottom: 10px; /* Space below each paragraph */
+    }
+    
+    .submit-image {
+      margin-top: 20px; /* Space between the text and image */
+    }
+    
+    .submit-image img {
+      max-width: 100%; /* Ensure the image is responsive */
+      height: auto; /* Maintain aspect ratio */
+      cursor: pointer; /* If you want it to act like a button */
+    }
+    
+    
+    }
+
+    @media (max-width:600px) {
+      .frequently-asked-questions {
+        margin-top: 70% !important;
+    
+      }
+      
+    }
+    @media (max-width:450px) {
+      .frequently-asked-questions {
+        margin-top: 80% !important;
+    
+      }
+      
+    }
